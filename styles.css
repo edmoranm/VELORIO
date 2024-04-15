@@ -1,0 +1,109 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #0030a0a3; /* Color de fondo de la barra de navegación */
+}
+
+.navbar-brand {
+    color: black; /* Color del texto del logotipo */
+    font-weight: bold; /* Texto en negrita para el logotipo */
+}
+
+.navbar-nav .nav-link {
+    color: black; /* Color del texto de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: white; /* Cambiar el color del texto del enlace al pasar el mouse */
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; /* Color del icono del botón de alternar */
+}
+
+.navbar-toggler {
+    border-color: red; /* Color del borde del botón de alternar */
+}
+
+/* Estilos para el contenido */
+.container {
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    background-color: #0030a0a3;
+    color: aliceblue;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    border: solid red;
+    background-position: center;
+}
+
+.btn:hover {
+    background-color: white;
+    background-position: center;
+}
+
+body {
+    /* Fondo con una imagen */
+    background-image: url('./images/fonn.jpg');
+    background-size: cover;
+   
+   
+}
+/* En styles.css */
+.iconos {
+    width: 80px; /* Ancho deseado */
+    height: 80px; /* Alto deseado */
+}
+.formulario{
+    background-color: #0030a0a3;
+}
+#resultadoCotizacion{
+    color: red;
+}
+
+.register{
+    background-color: #0030a0a3;
+}
+
+.row{
+    color: aliceblue;
+}
+.tituloRe{
+    color: #fff;
+}
+
+#equipo {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-left: 20px;
+}
+
+#box {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(2, 98, 201, 0.601);
+    margin-left: -10px;
+    background-position: center;
+
+
+    
+}
+#box img {
+    max-width: 50%;
+    height: auto;
+}
